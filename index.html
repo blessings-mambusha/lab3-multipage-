@@ -5,8 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home - My Website</title>
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
+    <header>
+        <div id="clock" class="clock"></div>
+      </header>
 
     <nav>
         <ul>
@@ -14,6 +18,7 @@
             <li><a href="services.html">Services</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
+        <button id="themeToggle">Switch Theme</button>
     </nav>
 
     <div class="hero">
@@ -48,7 +53,16 @@
             <h3>feature 3.</h3>
             <p>Comprehensive Service Integration: We offer a holistic suite of services (cloud hosting, data analytics, cybersecurity, project management, and IT support) designed to seamlessly integrate and support our clients' diverse technological needs.</p>
         </div>
-    </section>
+        <h2>Team Members</h2>
+        <ul id="userList"></ul>
+        <button id="loadUsersBtn">Load Users</button>
+      
+        <section class="faq-item">
+          <h3 class="question">What is this website about?</h3>
+          <p class="answer">This is a demo project for learning web development.</p>
+        </section>
+        <button id="backToTop">↑ Back to Top</button>
 
+  
 </body>
 </html>

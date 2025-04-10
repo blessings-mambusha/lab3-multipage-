@@ -1,5 +1,15 @@
 BLESSINGS MAMBUSHA 
 JOSEPH LIKANDO 
-This project is a multi-page website built with HTML, CSS, Flexbox, and Grid. It features a responsive design using media queries, adapting to various screen sizes. The home page uses Flexbox for layout, while the services page employs CSS Grid. Interactive elements include hover effects and form focus transitions. A fade-in animation enhances the hero section. HTML5 form validation ensures data integrity. Images are responsive, scaling to fit different devices.
+Added a theme toggle button on the homepage to switch between light and dark modes using JavaScript and CSS classes.
+
+Enhanced the contact form to prevent empty submissions and show a personalized thank-you message.
+
+Used the Fetch API to load and display user names from a remote API dynamically.
+
+Created an interactive FAQ section where clicking on a question reveals or hides its answer.
+
+Practiced DOM manipulation, event handling, and basic form validation techniques.
+
+Applied HTML, CSS, and JavaScript together to build a more dynamic and user-friendly web experience.
 
 
